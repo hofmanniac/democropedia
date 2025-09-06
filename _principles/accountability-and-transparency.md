@@ -4,7 +4,7 @@ description: "Government officials are answerable for their actions and decision
 layout: page
 ---
 
-# Accountability and Transparency
+# Accountability and Transparency!
 
 **Accountability and transparency** are essential pillars of a healthy democracy. They ensure that government officials are answerable for their actions and that decisions are made openly, allowing the public to scrutinize, question, and influence those in power. Without these principles, corruption can flourish and public trust erodes.
 
