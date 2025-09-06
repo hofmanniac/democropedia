@@ -1,0 +1,27 @@
+# Jekyll build output
+_site/*
+_site
+
+# Jekyll and Sass caches
+.sass-cache/
+.jekyll-cache/
+
+# Bundler config
+.bundle/
+
+# Vendor dependencies
+vendor/
+
+# Node modules (if using npm)
+node_modules/
+
+# macOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Environment variables
+.env
+...existing code...
+_site

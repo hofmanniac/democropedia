@@ -3,7 +3,7 @@
 
 title: Democropedia
 description: In defense of democracy
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/democropedia"
 url: "https://your-github-username.github.io" # change this to your GitHub Pages URL
 
 # Build settings
