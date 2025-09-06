@@ -28,4 +28,3 @@ This project aims to document and defend those principles, by:
 - And where they’re being violated or threatened  
 
 This is a living, evolving effort — because democracy isn’t something we inherit. It’s something we *do*.
-
