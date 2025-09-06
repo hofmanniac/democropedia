@@ -12,6 +12,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Collections
+collections:
+  principles:
+    output: true
+    permalink: /principles/:name/
+
 # Exclude these files from production
 exclude:
   - Gemfile

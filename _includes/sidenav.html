@@ -1,0 +1,11 @@
+<nav class="sidenav">
+  <h2>Principles</h2>
+  <ul>
+    {% assign sorted_principles = site.principles | sort: 'title' %}
+    {% for principle in sorted_principles %}
+      <li>
+        <a href="{{ principle.url | relative_url }}">{{ principle.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

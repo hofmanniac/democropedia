@@ -1,30 +1,21 @@
 ---
-layout: default
-title: "What Are Democratic Principles?"
+layout: page
+title: "Welcome to Democropedia"
 ---
 
-**Democratic principles** are the foundational ideas that support a free, fair, and just society governed by the people. These aren’t tied to any political party — they’re the basic rules of the democratic game. They are what allow us to disagree, vote, protest, and still live together under one system.
 
-They include things like:
+Welcome to Democropedia — a resource dedicated to exploring, explaining, and defending the core principles that make democracy work.
 
-- Free and fair elections  
-- Rule of law  
-- Civil liberties  
-- Separation of powers  
-- Accountability and transparency  
-- Protection of minority rights  
-- Peaceful transfer of power  
-- Freedom of the press
+In a time of rapid change and growing polarization, it’s easy to lose sight of the foundational ideas that unite us as citizens. This site is here to remind us that democracy is not just a system of government, but a living tradition built on shared values: fairness, accountability, rights, and the rule of law.
 
-These principles are embedded in the Constitution, the Bill of Rights, landmark legislation, and generations of civic tradition. They’re not “left” or “right” — they’re *American*.
+**What you’ll find here:**
 
-It’s important not to confuse *democratic principles* with the principles of the **Democratic Party**. While political parties may champion some of these ideals more than others at different times, the core principles of democracy should transcend party lines. Defending them is not a partisan act — it’s a civic one.
+- Clear, accessible definitions of key democratic principles
+- Historical context and real-world examples
+- Honest discussion of where these principles are upheld—and where they’re under threat
+- Resources for learning more and getting involved
 
-This project aims to document and defend those principles, by:
+Democracy isn’t automatic. It requires understanding, vigilance, and participation from all of us. Whether you’re a student, a teacher, a concerned citizen, or just curious, we hope this site helps you see why these principles matter—and how you can help defend them.
 
-- Defining each one clearly  
-- Connecting them to real-world examples — past and present  
-- Calling out where they are upheld  
-- And where they’re being violated or threatened  
+*Democracy is something we do, together. Let’s keep it strong.*
 
-This is a living, evolving effort — because democracy isn’t something we inherit. It’s something we *do*.

@@ -1,3 +1,31 @@
+/* Navbar styles */
+/* Navbar styles */
+.navbar {
+  background: #222 !important;
+  color: #fff !important;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #444;
+}
+.navbar-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+.navbar-brand, .navbar-link {
+  color: #fff !important;
+  background: transparent !important;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+.navbar-brand:hover, .navbar-link:hover {
+  background: #444 !important;
+  color: #ffd700 !important;
+}
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
@@ -12,7 +40,8 @@ header, footer {
   text-align: center;
 }
 main {
-  max-width: 700px;
+  width: 80%;
+  max-width: 80%;
   margin: 2em auto;
   background: #fff;
   padding: 2em;
@@ -25,4 +54,47 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+/* Sidenav and container styles */
+.container-with-sidenav {
+  display: flex;
+  max-width: 1100px;
+  margin: 2em auto;
+  gap: 2em;
+  align-items: flex-start;
+}
+.sidenav {
+  min-width: 220px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  padding: 1.5em 1em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  position: sticky;
+  top: 2em;
+  height: fit-content;
+}
+.sidenav h2 {
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  letter-spacing: 0.05em;
+  color: #444;
+  text-transform: uppercase;
+}
+.sidenav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidenav li {
+  margin-bottom: 0.7em;
+}
+.sidenav a {
+  color: #222;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.sidenav a:hover {
+  color: #007acc;
 }

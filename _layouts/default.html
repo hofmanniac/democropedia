@@ -8,13 +8,14 @@ layout: default
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     {{ site.seo_tag }}
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   </head>
   <body>
     <header>
-      <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
       <p>{{ site.description }}</p>
     </header>
+    {% include navbar.html %}
     <main>
       {{ content }}
     </main>
