@@ -149,4 +149,66 @@ a:hover {
 .sidenav a:hover {
   color: #007acc;
 }
+/* Responsive styles for mobile and tablets */
+@media (max-width: 900px) {
+  main {
+    width: 96%;
+    max-width: 100%;
+    padding: 1em;
+  }
+  .container-with-sidenav {
+    flex-direction: column;
+    gap: 0;
+    max-width: 100%;
+  }
+  .sidenav {
+    min-width: unset;
+    width: 100%;
+    margin-bottom: 1.5em;
+    position: static;
+    box-shadow: none;
+    border-radius: 6px;
+    padding: 1em 0.5em;
+  }
+  .navbar-container {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    padding: 0 0.5rem;
+  }
+  header, footer {
+    padding: 0.5em 0.2em;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  .navbar {
+    font-size: 0.95rem;
+    padding: 0.3rem 0;
+  }
+  .navbar-container {
+    padding: 0 0.2rem;
+  }
+  .sidenav {
+    font-size: 0.98em;
+    padding: 0.7em 0.3em;
+  }
+  main {
+    padding: 0.7em;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  }
+}
 
