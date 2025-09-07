@@ -6,6 +6,8 @@ layout: default
   <main style="position: relative; min-height: 300px;">
     <h1>{{ page.title}}</h1>
     {{ content }}
+    <h2>Source</h2>
+    <p><a href="{{ page.link }}" target="_blank">{{ page.link }}</a></p>
     {% if page.principles_violated and page.principles_violated.size > 0 %}
       <section style="margin-top: 2em; background: #f8f8f8; padding: 1.5em 1em; border-radius: 8px; box-shadow: 0 2px 8px #0001;">
         <h3 style="margin-top:0;">Violated Principles</h3>
