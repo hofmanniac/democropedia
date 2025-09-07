@@ -1,7 +1,7 @@
 ---
 title: "Free and Fair Elections"
 description: "Elections in which all eligible citizens can vote, votes are counted accurately, and the process is transparent and competitive."
-layout: page
+layout: principle
 
 ---
 

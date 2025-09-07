@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="container-with-sidenav">
+  {% include sidenav.html %}
+  <main style="position: relative; min-height: 300px;">
+    {{ content }}
+    {% assign related_events = site.events | where_exp: 'event', 'event.principles_violated contains page.slug' %}
+    {% if related_events and related_events.size > 0 %}
+      <section style="margin-top: 2em; background: #f8f8f8; padding: 1.5em 1em; border-radius: 8px; box-shadow: 0 2px 8px #0001;">
+        <h3 style="margin-top:0;">Violation Examples</h3>
+        <ul style="padding-left: 1.2em;">
+          {% for event in related_events %}
+            <li>
+              <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+              <span style="color: #888; font-size: 0.9em;">({{ event.date | date: '%Y-%m-%d' }})</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  </main>
+</div>

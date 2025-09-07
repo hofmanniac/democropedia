@@ -1,7 +1,7 @@
 ---
 title: "Freedom of the Press"
 description: "The media can report news and express opinions without government censorship or retribution."
-layout: page
+layout: principle
 
 ---
 

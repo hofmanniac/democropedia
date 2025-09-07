@@ -5,6 +5,8 @@ description: "A general overview of the core democratic principles."
 permalink: /principles/
 ---
 
+# Democratic Principles
+
 **Democratic principles** are the foundational ideas that support a free, fair, and just society governed by the people. These aren’t tied to any political party — they’re the basic rules of the democratic game. They are what allow us to disagree, vote, protest, and still live together under one system.
 
 They include things like:

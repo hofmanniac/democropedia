@@ -1,7 +1,7 @@
 ---
 title: "Protection of Minority Rights"
 description: "Safeguarding the rights and interests of groups that are not part of the majority."
-layout: page
+layout: principle
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Accountability and Transparency"
 description: "Government officials are answerable for their actions and decisions are made openly."
-layout: page
+layout: principle
 ---
 
 # Accountability and Transparency

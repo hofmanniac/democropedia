@@ -1,7 +1,7 @@
 ---
 title: "Peaceful Transfer of Power"
 description: "Transitions between governments occur without violence or coercion."
-layout: page
+layout: principle
 
 ---
 

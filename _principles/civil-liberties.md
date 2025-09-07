@@ -1,7 +1,7 @@
 ---
 title: "Civil Liberties"
 description: "Fundamental rights and freedoms protected from government interference, such as speech, religion, and assembly."
-layout: page
+layout: principle
 
 ---
 

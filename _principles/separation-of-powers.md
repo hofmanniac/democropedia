@@ -1,7 +1,7 @@
 ---
 title: "Separation of Powers"
 description: "Division of government responsibilities into distinct branches to prevent abuse of power."
-layout: page
+layout: principle
 
 ---
 

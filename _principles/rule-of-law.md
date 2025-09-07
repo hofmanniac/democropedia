@@ -1,7 +1,7 @@
 ---
 title: "Rule of Law"
 description: "Everyone, including leaders, is subject to the law and legal processes are fair and impartial."
-layout: page
+layout: principle
 
 ---
 

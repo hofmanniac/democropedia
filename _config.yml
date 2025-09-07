@@ -18,9 +18,14 @@ collections:
     output: true
     permalink: /principles/:name/
 
+  events:
+    output: true
+    permalink: /events/:name/
+
 # Exclude these files from production
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+  - scripts
