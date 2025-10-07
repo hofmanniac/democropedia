@@ -19,5 +19,19 @@ layout: default
         </ul>
       </section>
     {% endif %}
+    {% assign related_tactics = site.tactics | where_exp: 't', 't.principles_violated contains page.slug' %}
+    {% if related_tactics and related_tactics.size > 0 %}
+      <section style="margin-top: 2em; background: #fbfbfb; padding: 1.5em 1em; border-radius: 8px; box-shadow: 0 2px 8px #0001;">
+        <h3 style="margin-top:0;">Tactics that violate this principle</h3>
+        <ul style="padding-left: 1.2em;">
+          {% for tactic in related_tactics %}
+            <li>
+              <a href="{{ tactic.url | relative_url }}">{{ tactic.title }}</a>
+              <span style="color: #888; font-size: 0.9em;">({{ tactic.date | date: '%Y-%m-%d' }})</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
   </main>
 </div>

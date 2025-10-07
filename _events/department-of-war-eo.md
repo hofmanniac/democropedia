@@ -9,6 +9,8 @@ principles_violated:
  - rule-of-law
  - separation-of-powers
  - accountability-and-transparency
+tactics_demonstrated:
+ - rebranding-state-institutions
 ---
 
 On September 4–5, 2025, President Donald Trump signed an executive order directing federal agencies to refer to the Department of Defense using the alternate name “Department of War,” and to refer to the Secretary of Defense as “Secretary of War” in official and ceremonial contexts. While the official legal name remains unchanged without an act of Congress, Trump suggested that such approval may be unnecessary.

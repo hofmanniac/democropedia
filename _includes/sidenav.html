@@ -8,4 +8,17 @@
       </li>
     {% endfor %}
   </ul>
+
+  {% if site.tactics %}
+    <hr style="margin:1em 0; border:none; border-top:1px solid #e6e6e6;">
+    <h2>Tactics</h2>
+    <ul>
+      {% assign sorted_tactics = site.tactics | sort: 'title' %}
+      {% for tactic in sorted_tactics limit:8 %}
+        <li>
+          <a href="{{ tactic.url | relative_url }}">{{ tactic.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 </nav>

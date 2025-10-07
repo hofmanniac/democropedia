@@ -8,6 +8,8 @@ layout: event
 principles_violated:
  - free-and-fair-elections
  - accountability-and-transparency
+tactics_demonstrated:
+ - midcycle-gerrymandering
 ---
 
 In mid-2025, former President Donald Trump reportedly pressured Texas Republican lawmakers to redraw the state’s congressional districts — not as part of the normal post-census redistricting process, but in a **mid-decade political maneuver**. The goal: to gain additional Republican seats in the U.S. House of Representatives ahead of the 2026 midterms.

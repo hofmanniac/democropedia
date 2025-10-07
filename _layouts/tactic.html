@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="container-with-sidenav">
+  {% include sidenav.html %}
+  <main style="position: relative; min-height: 300px;">
+    <h1>{{ page.title}}</h1>
+    {{ content }}
+    <!-- {% if page.principles_violated and page.principles_violated.size > 0 %}
+      <section style="margin-top: 2em; background: #f8f8f8; padding: 1.5em 1em; border-radius: 8px; box-shadow: 0 2px 8px #0001;">
+        <h3 style="margin-top:0;">Violated Principles</h3>
+        <ul style="padding-left: 1.2em;">
+          {% for principle_slug in page.principles_violated %}
+            {% assign principle = site.principles | where: "slug", principle_slug | first %}
+            {% if principle %}
+              <li>
+                <a href="{{ principle.url | relative_url }}">{{ principle.title }}</a>
+              </li>
+            {% else %}
+              <li>{{ principle_slug }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %} -->
+    {% assign related_events = site.events | where_exp: 'e', 'e.tactics_demonstrated contains page.slug' %}
+    {% if related_events and related_events.size > 0 %}
+      <section style="margin-top: 2em; background: #f4f9ff; padding: 1.5em 1em; border-radius: 8px; box-shadow: 0 2px 8px #0001;">
+        <h3 style="margin-top:0;">Example Events Demonstrating This Tactic</h3>
+        <ul style="padding-left: 1.2em;">
+          {% for event in related_events %}
+            <li>
+              <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+              <span style="color: #888; font-size: 0.9em;">({{ event.date | date: '%Y-%m-%d' }})</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  </main>
+</div>

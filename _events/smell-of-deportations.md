@@ -9,6 +9,8 @@ principles_violated:
  - rule-of-law
  - civil-liberties
  - separation-of-powers
+tactics_demonstrated:
+ - political-militarized-intimidation
 ---
 
 On Truth Social, former President Donald Trump posted a militarized meme referencing *Apocalypse Now*, threatening mass deportations and the use of force in Chicago. The message, referencing helicopters, war, and “the smell of deportations in the morning,” was accompanied by the line:  

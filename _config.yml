@@ -22,6 +22,10 @@ collections:
     output: true
     permalink: /events/:name/
 
+  tactics:
+    output: true
+    permalink: /tactics/:name/
+
 # Exclude these files from production
 exclude:
   - Gemfile
